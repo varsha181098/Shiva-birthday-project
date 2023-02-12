@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    padding: 0%;  
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(23, 25, 63);
+    padding: 20px;
+    margin-left: -15px;
+}
+.center-birth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#first{
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#third{
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourth{
+    background-color: rgb(23, 25, 63);
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fifth{
+    background-color: rgb(23, 25, 63);
+    width: 150px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 120px;
+}
+.center{
+display: flex;
+justify-self: center;
+align-items: center;
+flex-direction: column;
+}
+.para{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 17px;
+    margin-left: -10px;
+    padding: 25px;
+}
+.heading{
+color: aliceblue;
+margin: 5px;
+font-size:35px;
+text-align: center;
+margin-left: -10px;
+padding: 20px;
+}
+@media screen and (max-width: 500px){
+    img{
+        width: 120px;
+        height: 150px;
+    }
+    .center-birth{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
